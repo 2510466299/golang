@@ -2,8 +2,7 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/2510466299/golang/pactangle"
+	"golang/pactangle"
 )
 
 /*
