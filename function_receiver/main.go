@@ -16,10 +16,10 @@ func New_person(name string, age int32) *Person {
 
 // define function_receiver
 
-func (p Person) Dream() {
+func (p *Person) Dream() {
 	fmt.Printf("%v,is learning golang\n", p.name)
 }
-func (p Person) Showage() {
+func (p *Person) Showage() {
 	fmt.Printf("%v'age is %v\n", p.name, p.age)
 }
 
